@@ -3,9 +3,11 @@
 namespace ExercicioMusica
 {
     class Program
-    {
+    { 
+       
         static void Main(string[] args)
         {
+            
             string titulo = @"Lugar ao Sol", 
             
             versos1 = @"Que bom viver, como é bom sonhar
@@ -39,6 +41,7 @@ E não há mais ninguém como você e eu",
 
 refrao = @"Livre pra poder sorrir, sim
 Livre pra poder buscar o meu lugar ao Sol";
+// Aqui eu queria ja configurar a cor do refrão mas não sabia como
 
             Console.ForegroundColor = ConsoleColor.DarkBlue;
             Console.BackgroundColor = ConsoleColor.Yellow;
